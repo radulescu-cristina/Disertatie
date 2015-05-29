@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="r2b-oz-slx">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Landing View Controller-->
@@ -19,6 +18,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="reg-60-l92">
                                 <rect key="frame" x="277" y="550" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="d1G-Fu-2T4"/>
+                                </constraints>
                                 <state key="normal" title="Log in">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -29,9 +31,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="reg-60-l92" secondAttribute="trailing" constant="261" id="XYM-wk-C7u"/>
-                            <constraint firstItem="reg-60-l92" firstAttribute="top" secondItem="tQA-I6-Ijk" secondAttribute="bottom" constant="530" id="eJl-KU-3Nz"/>
-                            <constraint firstItem="reg-60-l92" firstAttribute="leading" secondItem="rim-Pq-fWU" secondAttribute="leadingMargin" constant="261" id="xoa-0N-E7M"/>
+                            <constraint firstItem="reg-60-l92" firstAttribute="centerX" secondItem="rim-Pq-fWU" secondAttribute="centerX" id="0yR-Jc-D2d"/>
+                            <constraint firstAttribute="bottom" secondItem="reg-60-l92" secondAttribute="bottom" constant="20" symbolic="YES" id="Aho-EL-5Z8"/>
                         </constraints>
                     </view>
                     <connections>

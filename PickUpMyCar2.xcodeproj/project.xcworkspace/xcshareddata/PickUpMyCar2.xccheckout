@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DC85BF95-C7A5-4032-A895-2E05E314A3A2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PickUpMyCar2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>972C2BB8243D3C8CC226C152B3EADC724646CF62</key>
+		<string>https://github.com/radulescu-cristina/Disertatie</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PickUpMyCar2.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>972C2BB8243D3C8CC226C152B3EADC724646CF62</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/radulescu-cristina/Disertatie</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>972C2BB8243D3C8CC226C152B3EADC724646CF62</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>972C2BB8243D3C8CC226C152B3EADC724646CF62</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LastVersionDisertatie</string>
+		</dict>
+	</array>
+</dict>
+</plist>

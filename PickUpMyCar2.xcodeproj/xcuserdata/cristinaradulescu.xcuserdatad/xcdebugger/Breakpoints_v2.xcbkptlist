@@ -6,7 +6,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LandingViewController.swift"
@@ -19,14 +19,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "PickUpMyCar2.LandingViewController.(initialViewController in _746FD7F3462DEFDBC4FB189224493E48).setter : Swift.Optional&lt;ObjectiveC.UIViewController&gt;"
                   moduleName = "PickUpMyCar2"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/cristinaradulescu/Documents/workspace/PickUpMyCar2/LandingViewController.swift"
-                  timestampString = "454591779.289157"
+                  urlString = "file:///Users/cristinaradulescu/Documents/workspace/LastVersionDisertatie/LandingViewController.swift"
+                  timestampString = "454621435.138968"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -34,14 +34,14 @@
                   offsetFromSymbolStart = "16">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "PickUpMyCar2.LandingViewController.(initialViewController in _746FD7F3462DEFDBC4FB189224493E48).materializeForSet : Swift.Optional&lt;ObjectiveC.UIViewController&gt;"
                   moduleName = "PickUpMyCar2"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/cristinaradulescu/Documents/workspace/PickUpMyCar2/LandingViewController.swift"
-                  timestampString = "454591779.289275"
+                  urlString = "file:///Users/cristinaradulescu/Documents/workspace/LastVersionDisertatie/LandingViewController.swift"
+                  timestampString = "454621435.139257"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -49,14 +49,14 @@
                   offsetFromSymbolStart = "16">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "PickUpMyCar2.LandingViewController.init (PickUpMyCar2.LandingViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; PickUpMyCar2.LandingViewController"
                   moduleName = "PickUpMyCar2"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/cristinaradulescu/Documents/workspace/PickUpMyCar2/LandingViewController.swift"
-                  timestampString = "454591779.289406"
+                  urlString = "file:///Users/cristinaradulescu/Documents/workspace/LastVersionDisertatie/LandingViewController.swift"
+                  timestampString = "454621435.139534"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -64,14 +64,14 @@
                   offsetFromSymbolStart = "53">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "PickUpMyCar2.LandingViewController.init (PickUpMyCar2.LandingViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; PickUpMyCar2.LandingViewController"
                   moduleName = "PickUpMyCar2"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/cristinaradulescu/Documents/workspace/PickUpMyCar2/LandingViewController.swift"
-                  timestampString = "454591779.289516"
+                  urlString = "file:///Users/cristinaradulescu/Documents/workspace/LastVersionDisertatie/LandingViewController.swift"
+                  timestampString = "454621435.139753"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -79,6 +79,22 @@
                   offsetFromSymbolStart = "28">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LandingViewController.swift"
+            timestampString = "454620050.961621"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "didTapLoginButton(_:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
