@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="r2b-oz-slx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Landing View Controller-->
+        <scene sceneID="JO4-1Q-84H">
+            <objects>
+                <viewController id="r2b-oz-slx" customClass="LandingViewController" customModule="PickUpMyCar2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tQA-I6-Ijk"/>
+                        <viewControllerLayoutGuide type="bottom" id="cZI-WY-jlI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rim-Pq-fWU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="reg-60-l92">
+                                <rect key="frame" x="277" y="550" width="46" height="30"/>
+                                <state key="normal" title="Log in">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapLoginButton:" destination="r2b-oz-slx" eventType="touchUpInside" id="Kte-Jx-9bJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="reg-60-l92" secondAttribute="trailing" constant="261" id="XYM-wk-C7u"/>
+                            <constraint firstItem="reg-60-l92" firstAttribute="top" secondItem="tQA-I6-Ijk" secondAttribute="bottom" constant="530" id="eJl-KU-3Nz"/>
+                            <constraint firstItem="reg-60-l92" firstAttribute="leading" secondItem="rim-Pq-fWU" secondAttribute="leadingMargin" constant="261" id="xoa-0N-E7M"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="facebookLoginButton" destination="reg-60-l92" id="dKi-Pw-9PR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MWF-Lj-w2F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="432" y="400"/>
+        </scene>
+    </scenes>
+</document>
