@@ -9,8 +9,12 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
-    override func viewDidLoad() {
+    @IBOutlet var mapView: GMSMapView!
+    var firstLocationUpdate: Bool?
+    let locationManager=CLLocationManager()
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
