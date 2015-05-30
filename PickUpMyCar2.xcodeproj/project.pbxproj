@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		44B6DDC21B18F6560070C15A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 44B6DDC11B18F6560070C15A /* Podfile */; };
+		44CC64511B19FAEB00D56068 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CC64501B19FAEB00D56068 /* ThirdViewController.swift */; };
 		44FBD5A31B187773006B0E01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FBD5A21B187773006B0E01 /* AppDelegate.swift */; };
 		44FBD5A51B187773006B0E01 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FBD5A41B187773006B0E01 /* FirstViewController.swift */; };
 		44FBD5A71B187773006B0E01 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FBD5A61B187773006B0E01 /* SecondViewController.swift */; };
@@ -37,6 +38,8 @@
 		314238F249657E039BD16FFD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		358BB34D08E25C3F95857D85 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		44B6DDC11B18F6560070C15A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		44CC644F1B19DB5000D56068 /* Bucharest.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Bucharest.gpx; sourceTree = "<group>"; };
+		44CC64501B19FAEB00D56068 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../ThirdViewController.swift; sourceTree = "<group>"; };
 		44FBD59D1B187773006B0E01 /* PickUpMyCar2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickUpMyCar2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FBD5A11B187773006B0E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44FBD5A21B187773006B0E01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +48,7 @@
 		44FBD5A91B187773006B0E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44FBD5AB1B187773006B0E01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		44FBD5AE1B187773006B0E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		44FBD5B41B187773006B0E01 /* PickUpMyCar2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickUpMyCar2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44FBD5B41B187773006B0E01 /* PickUpMyCar.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickUpMyCar.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FBD5B91B187773006B0E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44FBD5BA1B187773006B0E01 /* PickUpMyCar2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpMyCar2Tests.swift; sourceTree = "<group>"; };
 		44FBD5C41B1877EE006B0E01 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "../Bridging-Header.h"; sourceTree = "<group>"; };
@@ -90,6 +93,7 @@
 		44FBD5941B187772006B0E01 = {
 			isa = PBXGroup;
 			children = (
+				44CC644F1B19DB5000D56068 /* Bucharest.gpx */,
 				44B6DDC11B18F6560070C15A /* Podfile */,
 				44FBD59F1B187773006B0E01 /* PickUpMyCar2 */,
 				44FBD5B71B187773006B0E01 /* PickUpMyCar2Tests */,
@@ -103,7 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				44FBD59D1B187773006B0E01 /* PickUpMyCar2.app */,
-				44FBD5B41B187773006B0E01 /* PickUpMyCar2Tests.xctest */,
+				44FBD5B41B187773006B0E01 /* PickUpMyCar.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +120,7 @@
 				44FBD5C51B187831006B0E01 /* FBSDKCoreKit.framework */,
 				44FBD5C61B187831006B0E01 /* FBSDKLoginKit.framework */,
 				44FBD5C41B1877EE006B0E01 /* Bridging-Header.h */,
+				44CC64501B19FAEB00D56068 /* ThirdViewController.swift */,
 				44FBD5A41B187773006B0E01 /* FirstViewController.swift */,
 				44FBD5CF1B187E0F006B0E01 /* LandingStoryBoard.storyboard */,
 				44FBD5A61B187773006B0E01 /* SecondViewController.swift */,
@@ -199,7 +204,7 @@
 			);
 			name = PickUpMyCar2Tests;
 			productName = PickUpMyCar2Tests;
-			productReference = 44FBD5B41B187773006B0E01 /* PickUpMyCar2Tests.xctest */;
+			productReference = 44FBD5B41B187773006B0E01 /* PickUpMyCar.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -301,6 +306,7 @@
 			files = (
 				44FBD5A71B187773006B0E01 /* SecondViewController.swift in Sources */,
 				44FBD5A31B187773006B0E01 /* AppDelegate.swift in Sources */,
+				44CC64511B19FAEB00D56068 /* ThirdViewController.swift in Sources */,
 				44FBD5CE1B187B2D006B0E01 /* LandingViewController.swift in Sources */,
 				44FBD5A51B187773006B0E01 /* FirstViewController.swift in Sources */,
 			);
@@ -471,7 +477,7 @@
 				);
 				INFOPLIST_FILE = PickUpMyCar2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PickUpMyCar;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickUpMyCar2.app/PickUpMyCar2";
 			};
 			name = Debug;
@@ -486,7 +492,7 @@
 				);
 				INFOPLIST_FILE = PickUpMyCar2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PickUpMyCar;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickUpMyCar2.app/PickUpMyCar2";
 			};
 			name = Release;
