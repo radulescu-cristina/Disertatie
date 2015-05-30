@@ -37,9 +37,18 @@
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="04h-dX-Vsa">
+                                <rect key="frame" x="16" y="20" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="imageView" destination="04h-dX-Vsa" id="1c1-qu-fdA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -78,7 +87,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Log out" image="close.png" id="cif-gQ-CRj"/>
+                    <tabBarItem key="tabBarItem" tag="3" title="Log out" image="second" id="cif-gQ-CRj"/>
                     <connections>
                         <outlet property="facebookLogOutButton" destination="cif-gQ-CRj" id="u4o-Lc-zVY"/>
                     </connections>
@@ -89,7 +98,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="close.png" width="12" height="12"/>
         <image name="ic_qu_direction_mylocation.png" width="24" height="24"/>
         <image name="second" width="30" height="30"/>
     </resources>
